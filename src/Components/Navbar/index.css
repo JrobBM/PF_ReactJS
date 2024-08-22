@@ -1,0 +1,44 @@
+.header {
+    background-color: rgb(3, 83, 27);
+    color: snow;
+    padding: 40px 0;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar__logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 36px;
+        gap: 20px;
+    }
+    .navbar__logo img{
+        width: 25%;
+        height: 25%;
+    }
+    .navbar__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .navbar__Item{
+        padding: .8rem;
+        transition: all .3s linear;
+        cursor: pointer;
+    }
+    .navbar__Item:hover{
+        background-color: aqua;
+        color: bisque;
+        border-radius: 4px;
+    }
+    .navbar__link{
+        font-size: 1.4em;
+        line-height: 1;
+    }

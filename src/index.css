@@ -1,0 +1,8 @@
+/*Estilos Global*/
+@import './styles/reset.css';
+@import './styles/shared.css';
+
+
+/*componentes */
+@import './Components/Navbar/index.css';
+@import './Components/CartWidget/index.css';
