@@ -1,8 +1,10 @@
-import { Icon } from '@iconify/react'
+import { Icon } from '@iconify/react';
+import Pill from '../Pill';
+
 const CartWidget = () => {
     return (
         <div className='cart-widget'>
-            <span className='pill'>0</span>
+            <Pill quantity={2}/>
             <Icon className='cart-widget__cart'icon="raphael:cart" />
         </div>
     );

@@ -6,3 +6,4 @@
 /*componentes */
 @import './Components/Navbar/index.css';
 @import './Components/CartWidget/index.css';
+@import './Components/Pill/index.css';

@@ -20,6 +20,7 @@
 /************************************************************************ */
 import logo from '../../assets/imagenes/iconos/mob.png';
 import CartWidget from '../CartWidget';
+import ItemList from '../ItemList';
 
 const Navbar = () => {
         return(
@@ -31,18 +32,12 @@ const Navbar = () => {
                             <p>Aqui va el Titulo de la pagina que aun no eh decidido</p>
                         </figure>
                         <menu className="navbar__menu">
-                            <li className="navbar__Item">
-                                <a href="" className='navbar__link'>Tienda</a>
-                            </li>
-                            <li className="navbar__Item">
-                                <a href="" className='navbar__link'>Contacto</a>
-                            </li>
-                            <li className="navbar__Item">
-                                <a href="" className='navbar__link'>Sesion</a>
-                            </li>
+                            <ItemList label="Tienda"/>
+                            <ItemList label="Contacto"/>
+                            <ItemList label="Sesion"/>
                             <li>
                                 <a href="" className='navbar__link'>
-                                    <CartWidget/>
+                                    <CartWidget quantity={2}/>
                                 </a>
                             </li>
                         </menu>
