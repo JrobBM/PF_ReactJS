@@ -6,20 +6,20 @@
 
     .navbar{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        justify-content:space-between;
+        align-items:baseline;
     }
 
     .navbar__logo{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 36px;
+        font-size: 24px;
         gap: 20px;
     }
     .navbar__logo img{
-        width: 25%;
-        height: 25%;
+        width: 8%;
+        height: 8%;
     }
     .navbar__menu{
         display: flex;
@@ -39,6 +39,6 @@
         border-radius: 4px;
     }
     .navbar__link{
-        font-size: 1.4em;
+        font-size: 1em;
         line-height: 1;
     }

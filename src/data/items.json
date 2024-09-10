@@ -1,0 +1,146 @@
+[
+    {
+    "id": 1,
+    "category": "catalogo1",
+    "licence": "licencia1",
+    "name": "producto1",
+    "description": "descripcion de producto 1",
+    "img": {
+    "front": "src/assets/catalogo1/imagenf-1.png",
+    "back": "src/assets/catalogo1/imagenb-1.png"
+    },
+    "sku": "cp1001001",
+    "price": 100,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 2,
+    "category": "catalogo1",
+    "licence": "licencia1",
+    "name": "producto2",
+    "description": "descripcion de producto 2",
+    "img": {
+    "front": "src/assets/catalogo1/imagenf-2.png",
+    "back": "src/assets/catalogo1/imagenb-2.png"
+    },
+    "sku": "cp1001002",
+    "price": 101,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 3,
+    "category": "catalogo1",
+    "licence": "licencia1",
+    "name": "producto3",
+    "description": "descripcion de producto 3",
+    "img": {
+    "front": "src/assets/catalogo1/imagenf-3.png",
+    "back": "src/assets/catalogo1/imagenb-3.png"
+    },
+    "sku": "cp1001003",
+    "price": 102,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 4,
+    "category": "catalogo2",
+    "licence": "licencia2",
+    "name": "producto4",
+    "description": "descripcion de producto 4",
+    "img": {
+    "front": "src/assets/catalogo2/imagenf-4.png",
+    "back": "src/assets/catalogo2/imagenb-4.png"
+    },
+    "sku": "cp1001004",
+    "price": 103,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 5,
+    "category": "catalogo2",
+    "licence": "licencia2",
+    "name": "producto5",
+    "description": "descripcion de producto 5",
+    "img": {
+    "front": "src/assets/catalogo2/imagenf-5.png",
+    "back": "src/assets/catalogo2/imagenb-5.png"
+    },
+    "sku": "cp1001005",
+    "price": 104,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 6,
+    "category": "catalogo2",
+    "licence": "licencia2",
+    "name": "producto6",
+    "description": "descripcion de producto 6",
+    "img": {
+    "front": "src/assets/catalogo2/imagenf-6.png",
+    "back": "src/assets/catalogo2/imagenb-6.png"
+    },
+    "sku": "cp1001006",
+    "price": 105,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 7,
+    "category": "catalogo3",
+    "licence": "licencia3",
+    "name": "producto7",
+    "description": "descripcion de producto 7",
+    "img": {
+    "front": "src/assets/catalogo3/imagenf-7.png",
+    "back": "src/assets/catalogo3/imagenb-7.png"
+    },
+    "sku": "cp1001007",
+    "price": 106,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 8,
+    "category": "catalogo3",
+    "licence": "licencia3",
+    "name": "producto8",
+    "description": "descripcion de producto 8",
+    "img": {
+    "front": "src/assets/catalogo3/imagenf-8.png",
+    "back": "src/assets/catalogo3/imagenb-8.png"
+    },
+    "sku": "cp1001008",
+    "price": 107,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    },
+    {
+    "id": 9,
+    "category": "catalogo3",
+    "licence": "licencia3",
+    "name": "producto9",
+    "description": "descripcion de producto 9",
+    "img": {
+    "front": "src/assets/catalogo3/imagenf-9.png",
+    "back": "src/assets/catalogo3/imagenb-9.png"
+    },
+    "sku": "cp1001009",
+    "price": 108,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+    }
+]

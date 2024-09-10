@@ -1,0 +1,69 @@
+.item {
+    &__picture{
+        $self: &;
+        @include flex(row,space-around,center);
+        &pill{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: $small;
+            font-weight: 600;
+            background-color: $lighter;
+            color: $white;
+            padding: 1rem 2rem;
+        }
+        &--img{
+            object-position: center;
+            object-fit: contain;
+            animation: fade 0.7s;
+            width: 100px;
+            height: 150px;
+            &--2{    
+                display: none;
+                &:hover {
+                    animation: fade 0.7s;
+                    display:block;
+                }
+            }
+            &--1{
+                &:hover{
+                    display: none;
+                }
+            }
+
+            
+        }
+    }
+
+
+    a{
+        font-size: inherit;
+        text-decoration: none;
+        color: inherit;
+        
+    }
+    &__info{
+        font-family: $inter;
+        padding: 2rem;
+        @include flex(column, center,flex-start);
+        gap: 1rem;
+        &--title{
+            font-size: $xsmall;
+            font-weight: 400;
+        }
+        &--item{
+            font-size: $medium;
+            font-weight: bold;
+        }
+        &--price{
+            font-size: $small;
+        }
+        &--dues{
+            color:$primary;
+            font-size: $xsmall;
+            font-weight: bold;
+        }
+
+    }
+}

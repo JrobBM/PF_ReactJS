@@ -1,8 +1,20 @@
-const ItemList = ( {label} ) => {
+import { useState,useEffect } from "react";
+import Item from '../Item';
+
+const ItemList=()=>{
+    let[items,setItems]=useState([]);
+
+    useEffect(()=>{
+        fetch('src/data/items.json')
+        .then(res => res.json())
+        .then(data => setItems(data))
+    },[]);
+    
     return(
-        <li className="navbar__Item">
-            <a href="" className='navbar__link'>{ label }</a>
-        </li>
+        <section className="items__container container">
+            {items.map(item => <Item {...item} tag="Nuevo"/>)}
+        </section>
     );
-}
+};
+
 export default ItemList;

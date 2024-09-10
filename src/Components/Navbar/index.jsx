@@ -37,7 +37,7 @@ const Navbar = () => {
                             <ItemList label="Sesion"/>
                             <li>
                                 <a href="" className='navbar__link'>
-                                    <CartWidget quantity={2}/>
+                                    <CartWidget quantity={5}/>
                                 </a>
                             </li>
                         </menu>
