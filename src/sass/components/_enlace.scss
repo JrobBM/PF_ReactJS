@@ -1,0 +1,26 @@
+/* Estilo básico para enlaces */
+.enlace {
+    color: #002394;
+    text-decoration: none;
+    font-weight:normal;
+    transition: color 0.3s, text-decoration 0.3s; /* Transiciones suaves */
+
+    &:hover {
+        color: #24b300;
+        text-decoration: underline;
+        font-weight: bold;
+        }
+/*    &:visited {
+        color: #4cdbf5;
+        }*/
+    &:active {
+        color: #b3000f;
+        text-decoration: wavy underline;
+        }
+}
+  /* Estilo para enlaces deshabilitados */
+.enlace1 {
+    color: #6c757d;
+    pointer-events: none; /* Evita clics en enlaces deshabilitados */
+    text-decoration: none;
+}

@@ -1,0 +1,41 @@
+/*Area Inicial*/
+
+    /* Gobal Styles*/
+    /*Fuentes*/
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;700;800&display=swap");
+
+    /*Utilidades*/
+    @import "./utilities/variables";
+    @import "./utilities/maps";
+    @import "./utilities/mixins";
+        
+    /*Base*/
+    //@import "./base/general"; esto solo se usara si se tiene una plantilla incial de estilos diferente del reset que sera usada com default
+    @import "./base/reset";
+    
+    /*Layout*/
+        /*Contenedores*/
+        @import './Containers/header';
+        @import './Containers/footer';
+        
+        /*Paginas*/
+        //@import "./layout/principal";
+        @import './containers/main_inicio.scss';
+        @import './containers/main_contacto.scss';
+        @import './containers/main.scss';
+    
+        /*Paginas responsive solo de caracter informativo para la plantilla*/
+        // @import "./layout/responsive/rprincipal";
+        // @import "./layout/responsive/rpagina2";
+        // @import "./layout/responsive/rpagina3";
+    
+    /*Componentes*/
+    
+    @import './components/enlace';
+    @import './components/enlaceicon';
+    // @import './components/ficha';
+    // @import './components/importador';
+    @import './components/menu';
+    @import './components/supindice';
+    
+    /*--------------------------------------------------------------------------------*/

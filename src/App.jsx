@@ -1,17 +1,14 @@
-import BaseLayout from "./layout/BaseLayout";
-import ItemList from "./components/ItemList/index";
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Base from './base/base'
+import './App.scss';
 
 function App() {
 
   return (
     <>
-      <BaseLayout>
-        <main>
-          <ItemList/>
-        </main>
-      </BaseLayout>
+        <Base/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

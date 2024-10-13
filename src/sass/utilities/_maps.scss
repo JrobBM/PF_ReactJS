@@ -1,0 +1,14 @@
+/*Mapas*/
+
+/*color: map-get($colores,ColorFondo);*/
+$colores:(
+    ColorPrincniapl:blue,
+    ColorSecundario:red,
+    ColorFondo:yellow
+);
+
+$tamañofuente:(
+    sm 15px,
+    md 20px,
+    lg 30px,
+);

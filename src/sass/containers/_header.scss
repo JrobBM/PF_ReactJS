@@ -1,0 +1,165 @@
+header {
+    display: grid;
+    grid-template-areas: 'logo nav1 nav2 compra';
+    gap:5px;
+    grid-auto-columns: 1fr 6fr 2fr 1fr;
+    position: relative;
+
+    & > :nth-child(1) { 
+        grid-area: logo;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+        overflow: hidden;
+        position: relative;
+
+        & > img{
+            height: 100%;
+            width: 100%;
+            box-sizing: content-box;
+        }
+        & > figcaption{
+            position: absolute;
+            color: black;/**/
+            font-weight: bold;/**/
+            top: 5%;
+            left: 20%;
+        }
+    } 
+
+    & > :nth-child(2) {
+        grid-area: nav1;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+        overflow: hidden;
+        position: relative;
+
+        display: grid;
+        grid-template: "menu1 buscador";
+        grid-template-columns: 4fr 2fr;
+        grid-column-gap: 1px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+        & > menu {
+            grid-area: menu1;
+        }
+
+        & > :nth-last-child(1) {
+            grid-area: buscador;
+
+            box-sizing: border-box;
+            padding: 2px;
+            margin: 1px;
+            width: 98%;
+            height: 95%;
+            gap: 1px;
+
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            box-sizing: border-box;
+
+            position: relative;
+            overflow: hidden;
+
+            border: 1px, solid blue;
+            background-color: burlywood;        
+
+            & > input{
+                width: 90%;
+                height: 50%;
+            }
+            & > a {
+                width:10%;
+                height: 50%;
+                & span {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+    & > :nth-child(3) {
+        grid-area: nav2;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+        overflow: hidden;
+        position:relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+
+        & > menu {
+            background-color: #34036b;
+            height: 98%;
+            width: 98%;
+            display:flex;
+            position: relative;
+
+            & > li {
+                background-color: #12c9f7;
+                border: #34036b;
+                overflow: hidden;
+                position: relative;
+                padding: 1px;
+                margin: 1px;
+
+                justify-content:center;
+                align-items: center;
+                width: 98%;
+                height: 98%;
+
+                transition: all .3 linear;
+                cursor: pointer;
+
+                
+                & > a {
+                    & > :hover{
+                        border-radius: 4px;
+                        background-color: rgb(88, 4, 84);
+                    }
+                    & > span {
+                        display: none;
+                    }
+                    & > img {
+                        
+                        width: 98%;
+                        height: 98%;
+                    }
+                }
+            }
+        }
+    }
+
+    & > :nth-child(4) {
+        grid-area: compra;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+        overflow: hidden;
+        position: relative;
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+
+        transition: all .3 linear;
+        cursor: pointer;
+
+        & > :hover {
+            background-color: rgb(248, 252, 22);
+            border-radius: 4px;
+            & > a{
+                background-color: rgb(2, 139, 25);
+            }
+        }
+        
+    }
+}

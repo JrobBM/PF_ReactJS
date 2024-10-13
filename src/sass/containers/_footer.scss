@@ -1,0 +1,34 @@
+footer {
+    display: grid;
+    grid-template-areas: 'obj1 nav1 nav2 obj2';
+    gap:5px;
+    grid-auto-columns: 1fr 4fr 4fr 1fr;
+
+    /*primer div*/
+    & > :nth-child(1) { 
+        grid-area: obj1;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+    } 
+
+    /*primer nav*/
+    & > :nth-child(2) { 
+        grid-area: nav1;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+    } 
+
+    /*segundo nav*/
+    & > :nth-child(3) { 
+        grid-area: nav2;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+    } 
+
+    /*segundo div*/
+    & > :nth-child(4) { 
+        grid-area: obj2;
+        background-color: #f0942b;
+        border:  1px, solid #fa0000;
+    } 
+}

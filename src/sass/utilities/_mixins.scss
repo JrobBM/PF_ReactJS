@@ -1,0 +1,31 @@
+@mixin fuente_1{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    /*text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;*/
+    text-shadow: $sombratxt;
+    font-style:normal;
+    text-align: center;
+}
+
+@mixin Orden($ArcoA,$ArcoB,$ArcoC){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex($dir,$jt,$al){
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jt;
+    align-items: $al;
+}
+
+@mixin bg-transition{
+    transition: backgorund 0.3s ease;
+}
+
+@mixin bg-hover($bg-color, $tx-color){
+    background-color: $bg-color;
+    color: $tx-color;
+}

@@ -1,0 +1,40 @@
+@import "./sass/style.scss";
+
+#root {  
+  width: 95%;
+  height: 95vh;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(10, 8, 109);
+  
+  display: grid;
+  grid-template-areas:
+  'cabecera' 
+  'principal'  
+  'piepagina';
+  
+  gap:5px;
+  grid-auto-rows: 10% 80% 10%;
+  
+  /*Clase asociada al componete Header*/
+  & > header { 
+    grid-area: cabecera;
+    background-color: #23830E;
+    border:  1px, solid #F27b2C;
+  } 
+
+  /*Clase asociada al componete Main*/
+  & > main { 
+    grid-area: principal;
+    background-color: #030456;
+    border:  1px, solid #F27b2C;
+  }
+  
+  /*Clase asociada al componete Footer*/
+  & > footer { 
+    grid-area: piepagina; 
+    background-color: #971489;
+    border:  1px, solid #F27b2C;
+        }
+}

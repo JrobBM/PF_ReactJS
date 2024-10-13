@@ -1,0 +1,15 @@
+.enlaceicon{
+    background-color: aquamarine;
+    display: block;
+    width: 95%;
+    height: 95%;
+
+    justify-self:center;
+    align-self: center;
+    position: relative;
+    & > img{
+        width: auto;
+        height: 100%;
+        box-sizing: border-box;
+    }
+}
