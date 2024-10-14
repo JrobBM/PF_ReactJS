@@ -11,15 +11,14 @@ const Base=()=>{
         <BrowserRouter>
             <Header/>
 
-            <Routes>
-                <Route exact path='/' element={<MainI/>}/>
-                <Route exact path='/tienda' element={<Main/>}/>
-                <Route exact path='/tienda/catalago/:id' element={<Main/>}/>
-                <Route exact path='/contacto' element={<MainC/>}/>
-            </Routes>
+                <Routes>
+                    <Route exact path='/' element={<MainI/>}/>
+                    <Route exact path='/tienda/*' element={<Main/>}/>
+                    <Route exact path='/contacto' element={<MainC/>}/>
+                </Routes>
 
             <Footer/>
-        </BrowserRouter>
+            </BrowserRouter>
     );
 };
 export default Base;
